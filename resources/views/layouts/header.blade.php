@@ -134,7 +134,7 @@
                                             </li>
                                         </ul>
                                     </li>
-                                    <li class="dropdown"><a href="#">Pages</a>
+                                    <li class="dropdown"><a href="#">About</a>
                                         <ul>
                                             <li><a href="page-about.html">About</a></li>
                                             <li class="dropdown"><a href="#">Services</a>
@@ -154,7 +154,7 @@
                                             <li><a href="page-404.html">Page 404</a></li>
                                         </ul>
                                     </li>
-                                    <li class="dropdown"><a href="#">Shop</a>
+                                    <li class="dropdown"><a href="#">Portfolio</a>
                                         <ul>
                                             <li><a href="shop-products.html">Products</a></li>
                                             <li><a href="shop-products-sidebar.html">Products with Sidebar</a></li>
@@ -162,6 +162,18 @@
                                             <li><a href="shop-cart.html">Cart</a></li>
                                             <li><a href="shop-checkout.html">Checkout</a></li>
                                         </ul>
+                                    </li>
+                                    <li class="dropdown"><a href="#">Investors </a>
+                                        {{-- <ul>
+                                            <li><a href="shop-products.html">Products</a></li>
+                                            <li><a href="shop-products-sidebar.html">Products with Sidebar</a></li>
+                                            <li><a href="shop-product-details.html">Product Details</a></li>
+                                            <li><a href="shop-cart.html">Cart</a></li>
+                                            <li><a href="shop-checkout.html">Checkout</a></li>
+                                        </ul> --}}
+                                    </li>
+                                    <li class="dropdown"><a href="#">careers  </a>
+
                                     </li>
                                     <li class="dropdown"><a href="#">News</a>
                                         <ul>
