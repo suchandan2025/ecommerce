@@ -1363,6 +1363,9 @@ Main Header
 .header-top {
     position: relative;
     background: var(--bg-theme-color1);
+    /* padding: 10px; */
+    height: 100px;
+    font-size: medium;
 }
 
 .header-top .top-center {
