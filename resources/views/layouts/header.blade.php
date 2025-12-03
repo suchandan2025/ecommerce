@@ -109,31 +109,7 @@
 
                             <nav class="nav main-menu">
                                 <ul class="navigation">
-                                    <li class="current dropdown"><a href="index.html">Home</a>
-                                        <ul>
-                                            <li><a href="index.html">Home page 01</a></li>
-                                            <li><a href="index-2.html">Home page 02</a></li>
-                                            <li class="dropdown"><a href="#">Single</a>
-                                                <ul>
-                                                    <li><a href="index-1-single.html">Home Single 1</a></li>
-                                                    <li><a href="index-2-single.html">Home Single 2</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="dropdown"><a href="#">Dark</a>
-                                                <ul>
-                                                    <li><a href="index-1-dark.html">Home Dark 1</a></li>
-                                                    <li><a href="index-2-dark.html">Home Dark 2</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="index-1-rtl.html">Home RTL 01</a></li>
-                                            <li class="dropdown"><a href="#">Header Styles</a>
-                                                <ul>
-                                                    <li><a href="index.html">Header Style One</a></li>
-                                                    <li><a href="index-2.html">Header Style Two</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>
+                                    <li ><a href="{{ route('home') }}">Home</a></li>
                                     <li class="dropdown"><a href="#">About</a>
                                         <ul>
                                             <li><a href="page-about.html">About</a></li>
