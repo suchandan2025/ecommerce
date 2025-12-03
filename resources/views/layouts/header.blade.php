@@ -10,7 +10,7 @@
     <!-- Linearicons -->
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
 
-
+<link rel="stylesheet" href="{{ asset('assets/css/flaticon.css') }}">
 
     <!-- Stylesheets -->
     <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet">
@@ -64,7 +64,7 @@
                             <!-- Contact Info Box -->
                             <div class="contact-info-box">
                                 <i class="icon lnr-icon-phone-handset"></i>
-                                <span class="title">Call Now</span>
+                                <span class="title"></span>
                                 <a href="tel:+92880098670">+92 (880) - 9867</a>
                             </div>
                         </div>
@@ -72,11 +72,13 @@
                         <div class="top-right col-lg-5 col">
                             <!-- Contact Info Box -->
                             <div class="contact-info-box">
-                                <span class="icon lnr-icon-envelope1"></span>
-                                <span class="title">Send Email</span>
-                                <a href="/cdn-cgi/l/email-protection#056d60697545666a6875646b7c2b666a68"><span
+                                {{-- <span class="icon lnr-icon-envelope1"></span> --}}
+                                <i class="icon fas fa-envelope"></i>
+                                {{-- <span class="title">Send Email</span> --}}
+                                <a href="email">Test123@Gmail.com</a>
+                                {{-- <a href="/cdn-cgi/l/email-protection#056d60697545666a6875646b7c2b666a68"><span
                                         class="__cf_email__"
-                                        data-cfemail="3a525f564a7a5955574a5b544314595557">[email&#160;protected]</span></a>
+                                        data-cfemail="3a525f564a7a5955574a5b544314595557">[email&#160;protected]</span></a> --}}
                             </div>
 
                             <span class="divider"></span>
