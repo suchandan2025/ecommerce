@@ -207,35 +207,131 @@ var THEMEMASCOT = {};
         });
     }
 
-    //Clients Carousel
-    if ($('.clients-carousel').length) {
-        $('.clients-carousel').owlCarousel({
-            rtl: THEMEMASCOT.isRTL.check(),
-            loop: true,
-            margin: 30,
-            nav: false,
-            smartSpeed: 400,
-            autoplay: true,
-            navText: ['<span class="flaticon-left"></span>', '<span class="flaticon-right"></span>'],
-            responsive: {
-                0: {
-                    items: 1
-                },
-                480: {
-                    items: 2
-                },
-                600: {
-                    items: 3
-                },
-                768: {
-                    items: 4
-                },
-                1023: {
-                    items: 5
-                },
-            }
-        });
+    // //Clients Carousel
+    // if ($('.clients-carousel').length) {
+    //     $('.clients-carousel').owlCarousel({
+    //         rtl: THEMEMASCOT.isRTL.check(),
+    //         loop: true,
+    //         margin: 30,
+    //         nav: false,
+    //         smartSpeed: 400,
+    //         autoplay: true,
+    //         navText: ['<span class="flaticon-left"></span>', '<span class="flaticon-right"></span>'],
+    //         responsive: {
+    //             0: {
+    //                 items: 1
+    //             },
+    //             480: {
+    //                 items: 2
+    //             },
+    //             600: {
+    //                 items: 3
+    //             },
+    //             768: {
+    //                 items: 4
+    //             },
+    //             1023: {
+    //                 items: 5
+    //             },
+    //         }
+    //     });
+    // }
+
+    document.addEventListener('DOMContentLoaded', function () {
+
+    // Helper: get gap between flex children
+    function computeGap(container, items) {
+        if (!container || items.length < 2) return 0;
+
+        const style = getComputedStyle(container);
+        if (style.gap && style.gap !== "0px") {
+            return parseFloat(style.gap);
+        }
+
+        // Fallback: calculate margin between item 0 & 1
+        const r0 = items[0].getBoundingClientRect();
+        const r1 = items[1].getBoundingClientRect();
+        return Math.round(r1.left - (r0.left + r0.width));
     }
+
+    function setupInfiniteCarousel(selector, duplicates = 2, speedFactor = 120) {
+
+        const carousel = document.querySelector(selector);
+        if (!carousel) return;
+
+        if (carousel.dataset.infiniteInitialized === "true") return;
+
+        const items = Array.from(carousel.querySelectorAll(".slide-item"));
+        if (!items.length) return;
+
+        // Duplicate items
+        const frag = document.createDocumentFragment();
+        for (let i = 0; i < duplicates; i++) {
+            items.forEach(item => frag.appendChild(item.cloneNode(true)));
+        }
+        carousel.appendChild(frag);
+
+        // Calculate width of one loop
+        let loopWidth = 0;
+        const gap = computeGap(carousel, items);
+
+        items.forEach(item => {
+            loopWidth += item.getBoundingClientRect().width;
+        });
+        loopWidth += gap * (items.length - 1);
+
+        if (!loopWidth || loopWidth < 1) {
+            loopWidth = Math.round(carousel.scrollWidth / (duplicates + 1));
+        }
+
+        // Create unique animation name
+        const anim = "carouselAnim_" + Math.random().toString(36).substr(2, 8);
+
+        // Duration based on width
+        const duration = Math.max(6, Math.round((loopWidth / speedFactor) * 10) / 10);
+
+        // Reverse for carousel-2 only
+        const reverse = selector === ".carousel-2";
+
+        const keyframes = reverse
+            ? `
+            @keyframes ${anim} {
+                0% { transform: translateX(-${loopWidth}px); }
+                100% { transform: translateX(0); }
+            }
+        `
+            : `
+            @keyframes ${anim} {
+                0% { transform: translateX(0); }
+                100% { transform: translateX(-${loopWidth}px); }
+            }
+        `;
+
+        // Inject CSS
+        const style = document.createElement("style");
+        style.textContent = `
+            ${keyframes}
+            ${selector} {
+                display: flex;
+                align-items: center;
+                animation: ${anim} ${duration}s linear infinite;
+            }
+        `;
+        document.head.appendChild(style);
+
+        carousel.dataset.infiniteInitialized = "true";
+    }
+
+    // Run after all images load
+    window.addEventListener("load", function () {
+        setupInfiniteCarousel(".carousel-1", 3, 100); // Right → Left
+        setupInfiniteCarousel(".carousel-2", 3, 100); // Left → Right
+        setupInfiniteCarousel(".carousel-3", 3, 100); // Right → Left
+    });
+
+});
+
+
 
     // Testimonial Carousel
     if ($('.testimonial-carousel').length) {

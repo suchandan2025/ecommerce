@@ -812,7 +812,7 @@
                 </div>
 
             </div>
-        </section>
+        {{-- </section>
         <!--End News Section -->
 
         <!-- Clients Section   -->
@@ -837,7 +837,81 @@
                     </ul>
                 </div>
             </div>
-        </section>
+        </section> --}}
         <!--End Clients Section -->
+
+        <!-- Clients / Portfolio Section -->
+<section class="clients-section">
+    <div class="auto-container"  style="margin-top:30px;">
+        <h2 class="section-title" style="text-align:center; margin-bottom:15px;">Portfolio</h2>
+    </div>
+
+    <!-- FIRST CAROUSEL (Left → Right) -->
+    <div class="auto-container">
+        <div class="anim-icons">
+            <span class="icon-leaf leaf-1"></span>
+            <span class="icon-leaf leaf-2"></span>
+            <span class="icon-leaf leaf-3"></span>
+        </div>
+
+        <div class="sponsors-outer">
+            <ul class="clients-carousel carousel-1 owl-carousel owl-theme">
+                <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo1.png') }}" class="rounded" alt=""></a><p>CAN GROUP</p></li>
+                <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo2.png') }}" class="rounded" alt=""></a><p>STEIF CANNABIS</p></li>
+               <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo3.png') }}" class="rounded" alt=""></a><p>STEIF BRAND</p></li>
+               <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo4.png') }}" class="rounded" alt=""></a><p>ROBINSON CREEK RANCH</p></li>
+                <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo5.png') }}" class="rounded" alt=""></a><p>CAN SHOP</p></li>
+                <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo6.png') }}" class="rounded" alt=""></a><p>ORGANIC FARMZ</p></li>
+                <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo7.png') }}" class="rounded" alt=""></a><p>HONEY BUNNY</p></li>
+
+            </ul>
+        </div>
+    </div>
+
+    <!-- SECOND CAROUSEL (Right → Left) -->
+    <div class="auto-container">
+        <div class="anim-icons">
+            <span class="icon-leaf leaf-1"></span>
+            <span class="icon-leaf leaf-2"></span>
+            <span class="icon-leaf leaf-3"></span>
+        </div>
+
+        <div class="sponsors-outer">
+            <ul class="clients-carousel carousel-2 owl-carousel owl-theme">
+               <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo8.png') }}" class="rounded" alt=""></a><p>FORT NUGZ</p></li>
+                <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo9.png') }}" class="rounded" alt=""></a><p>CAN MEDIA</p></li>
+               <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo10.png') }}" class="rounded" alt=""></a><p>CANDYMAN</p></li>
+               <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo11.png') }}" class="rounded" alt=""></a><p>NATURAL MEDS</p></li>
+                <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo12.png') }}" class="rounded" alt=""></a><p>CAN BANK</p></li>
+                <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo13.png') }}" class="rounded" alt=""></a><p>SMOKE & RIDE</p></li>
+                <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo14.png') }}" class="rounded" alt=""></a><p>COCO'S GRAPES</p></li>
+        </div>
+    </div>
+
+    <!-- THIRD CAROUSEL (Left → Right) -->
+    <div class="auto-container">
+        <div class="anim-icons">
+            <span class="icon-leaf leaf-1"></span>
+            <span class="icon-leaf leaf-2"></span>
+            <span class="icon-leaf leaf-3"></span>
+        </div>
+
+        <div class="sponsors-outer">
+            <ul class="clients-carousel carousel-3 owl-carousel owl-theme">
+                 <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo15.png') }}" class="rounded" alt=""></a><p>J3SS3 F4RR3LL</p></li>
+                <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo16.png') }}" class="rounded" alt=""></a><p>REDWOOD PRESERVE</p></li>
+               <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo17.png') }}" class="rounded" alt=""></a><p>DOUBLE DRAGON</p></li>
+               <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo18.png') }}" class="rounded" alt=""></a><p>UKIAH BIKEPARK</p></li>
+                <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo19.png') }}" class="rounded" alt=""></a><p>CHAIN GAMES</p></li>
+                <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo20.png') }}" class="rounded" alt=""></a><p>Money Grows</p></li>
+                <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo1.png') }}" class="rounded" alt=""></a><p>CASINO</p></li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+
+
+
 
 @endsection

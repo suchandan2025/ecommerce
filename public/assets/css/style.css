@@ -185,7 +185,7 @@ p,
     max-width: 1200px;
     padding: 0px 15px;
     margin: 0 auto;
-    height: 55px;
+    /* height: 55px; */
 }
 
 .small-container {
@@ -3393,9 +3393,9 @@ Page Title
     border-radius: 10px;
 }
 
-.services-section.pull-up .outer-box {
+/* .services-section.pull-up .outer-box {
     margin-top: -60px;
-}
+} */
 
 .service-block {
     position: relative;
@@ -5429,7 +5429,8 @@ Contact Section
 
 .clients-section {
     position: relative;
-    background-color: #f6f5f0;
+    /* background-color: #f6f5f0; */
+        background-color: #93bb57;
     z-index: 1;
 }
 
@@ -5486,16 +5487,20 @@ Contact Section
 .clients-carousel .slide-item img {
     display: inline-block;
     max-width: 100%;
-    width: auto;
-    height: auto;
+    width: 200px;
+    height: 120px;
     opacity: 0.2;
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+    /* -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease; */
+    opacity: 1 !important;          /* no faded appearance */
+    transition: none !important; 
 }
 
 .clients-carousel .slide-item:hover img {
-    background-color: #ffffff;
-    opacity: 1;
+     transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    opacity: 1 !important;
 }
 
 .clients-carousel .owl-nav,
@@ -5519,6 +5524,12 @@ Contact Section
 
 .clients-section.style-two .sponsors-outer {
     border-top: 1px solid #e8e6dd;
+}
+
+.clients-carousel .slide-item p {
+    color: #111 !important;   /* darker text */
+    font-weight: 600;          /* optional: make it bolder */
+    margin-top: 8px;           /* nicer spacing */
 }
 
 /***
@@ -10103,4 +10114,32 @@ Sidebar
 
 .footer-bottom .copyright-text a:hover {
     color: #ffffff;
+}
+
+/* Required base styles for the infinite scroll carousels */
+.clients-carousel {
+  display: flex;           /* lay list items in a row */
+  gap: 30px;               /* match your owl margin if needed */
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  will-change: transform;
+}
+
+/* Ensure each slide item doesn't wrap and preserves its measured size */
+.clients-carousel .slide-item {
+  flex: 0 0 auto;
+}
+
+/* Parent container should hide overflow so we only see the viewport area */
+.sponsors-outer {
+  overflow: hidden;
+  position: relative;
+   padding: 60px 0;
+}
+
+.clients-section .auto-container + .auto-container .sponsors-outer {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
