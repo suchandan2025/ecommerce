@@ -812,7 +812,7 @@
                 </div>
 
             </div>
-        {{-- </section>
+        </section>
         <!--End News Section -->
 
         <!-- Clients Section   -->
@@ -837,11 +837,11 @@
                     </ul>
                 </div>
             </div>
-        </section> --}}
+        </section>
         <!--End Clients Section -->
 
         <!-- Clients / Portfolio Section -->
-<section class="clients-section">
+{{-- <section class="clients-section">
     <div class="auto-container"  style="margin-top:30px;">
         <h2 class="section-title" style="text-align:center; margin-bottom:15px;">Portfolio</h2>
     </div>
@@ -908,7 +908,7 @@
             </ul>
         </div>
     </div>
-</section>
+</section> --}}
 
 
 

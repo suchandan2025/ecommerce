@@ -9,7 +9,7 @@ License: copyright commercial
 2. Reset
 3. Global
 4. Main Header / TWO
-5. Sticky Header
+5. Sticky Header 
 6. Mobile Menu
 7. Section Title
 8. Page Title
@@ -42,7 +42,6 @@ License: copyright commercial
 @import url("flaticon.css");
 @import url("tm-bs-mp.css");
 @import url("tm-utility-classes.css");
-
 :root {
     --theme-color1: #003733;
     /* Dark Green*/
@@ -113,7 +112,7 @@ License: copyright commercial
     --container-pb: 120px;
 }
 
-/***
+/*** 
 
 ====================================================================
 Fonts
@@ -121,7 +120,7 @@ Fonts
 
 ***/
 
-/***
+/*** 
 
 ====================================================================
 Reset
@@ -149,7 +148,7 @@ Reset
     color: #819291;
 }
 
-/***
+/*** 
 
 ====================================================================
 Global Settings
@@ -185,7 +184,6 @@ p,
     max-width: 1200px;
     padding: 0px 15px;
     margin: 0 auto;
-    /* height: 55px; */
 }
 
 .small-container {
@@ -673,7 +671,6 @@ section>.container-fluid {
 }
 
 @media (min-width: 1400px) {
-
     .container,
     .container-lg,
     .container-md,
@@ -864,7 +861,7 @@ textarea.form-control {
     font-size: 12px;
 }
 
-/***
+/*** 
 
 ====================================================================
   Anim Icons
@@ -967,12 +964,10 @@ textarea.form-control {
         -webkit-transform: translateY(0);
         transform: translateY(0);
     }
-
     50% {
         -webkit-transform: translateY(-10px);
         transform: translateY(-10px);
     }
-
     100% {
         -webkit-transform: translateY(0);
         transform: translateY(0);
@@ -984,12 +979,10 @@ textarea.form-control {
         -webkit-transform: translateY(0);
         transform: translateY(0);
     }
-
     50% {
         -webkit-transform: translateY(-10px);
         transform: translateY(-10px);
     }
-
     100% {
         -webkit-transform: translateY(0);
         transform: translateY(0);
@@ -1001,12 +994,10 @@ textarea.form-control {
         -webkit-transform: translateY(0);
         transform: translateY(0);
     }
-
     50% {
         -webkit-transform: translateY(-30px);
         transform: translateY(-30px);
     }
-
     100% {
         -webkit-transform: translateY(0);
         transform: translateY(0);
@@ -1018,12 +1009,10 @@ textarea.form-control {
         -webkit-transform: translateY(0);
         transform: translateY(0);
     }
-
     50% {
         -webkit-transform: translateY(-30px);
         transform: translateY(-30px);
     }
-
     100% {
         -webkit-transform: translateY(0);
         transform: translateY(0);
@@ -1035,12 +1024,10 @@ textarea.form-control {
         -webkit-transform: translateX(0);
         transform: translateX(0);
     }
-
     50% {
         -webkit-transform: translateX(30px);
         transform: translateX(30px);
     }
-
     100% {
         -webkit-transform: translateX(0);
         transform: translateX(0);
@@ -1052,12 +1039,10 @@ textarea.form-control {
         -webkit-transform: translateX(0);
         transform: translateX(0);
     }
-
     50% {
         -webkit-transform: translateX(30px);
         transform: translateX(30px);
     }
-
     100% {
         -webkit-transform: translateX(0);
         transform: translateX(0);
@@ -1069,12 +1054,10 @@ textarea.form-control {
         -webkit-transform: scale(0.95);
         transform: scale(0.95);
     }
-
     50% {
         -webkit-transform: scale(1.05);
         transform: scale(1.05);
     }
-
     100% {
         -webkit-transform: scale(0.95);
         transform: scale(0.95);
@@ -1086,12 +1069,10 @@ textarea.form-control {
         -webkit-transform: scale(0.95);
         transform: scale(0.95);
     }
-
     50% {
         -webkit-transform: scale(1.05);
         transform: scale(1.05);
     }
-
     100% {
         -webkit-transform: scale(0.95);
         transform: scale(0.95);
@@ -1103,12 +1084,10 @@ textarea.form-control {
         -webkit-transform: rotate(-20deg);
         transform: rotate(-20deg);
     }
-
     50% {
         -webkit-transform: rotate(20deg);
         transform: rotate(20deg);
     }
-
     100% {
         -webkit-transform: rotate(-20deg);
         transform: rotate(-20deg);
@@ -1120,12 +1099,10 @@ textarea.form-control {
         -webkit-transform: rotate(-20deg);
         transform: rotate(-20deg);
     }
-
     50% {
         -webkit-transform: rotate(20deg);
         transform: rotate(20deg);
     }
-
     100% {
         -webkit-transform: rotate(-20deg);
         transform: rotate(-20deg);
@@ -1162,7 +1139,7 @@ Scroll To Top style
     color: #ffffff;
 }
 
-/***
+/*** 
 
 ====================================================================
   Search Popup
@@ -1362,7 +1339,7 @@ Scroll To Top style
     color: inherit;
 }
 
-/***
+/*** 
 
 ====================================================================
 Main Header
@@ -1384,17 +1361,8 @@ Main Header
 }
 
 .header-top {
-    /* position: relative;
-    background: var(--bg-theme-color1);
-    /* padding: 10px; */
-    /* height: 100px;
-    font-size: medium; */
     position: relative;
-    background: linear-gradient(90deg, #095046, #2d7467) !important;
-    /* padding: 0px 0px !important; */
-    height: 51px;
-    font-size: medium;
-    line-height: 28px;
+    background: var(--bg-theme-color1);
 }
 
 .header-top .top-center {
@@ -1407,11 +1375,10 @@ Main Header
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    /* min-height: 110px; */
+    min-height: 110px;
     -webkit-box-ordinal-group: 4;
     -ms-flex-order: 3;
     order: 3;
-    height: 50px;
 }
 
 .main-header .header-top .logo {
@@ -1437,7 +1404,6 @@ Main Header
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    height: 50px;
 }
 
 .contact-info-box {
@@ -1450,9 +1416,9 @@ Main Header
 
 .contact-info-box .icon {
     position: absolute;
-    left: 16px;
-    top: -12px;
-    font-size: 25px;
+    left: 0;
+    top: 0;
+    font-size: 34px;
     line-height: 50px;
     color: var(--theme-color3);
 }
@@ -1489,7 +1455,6 @@ Main Header
     -webkit-box-ordinal-group: 5;
     -ms-flex-order: 4;
     order: 4;
-    height: 50px;
 }
 
 .main-header .main-box {
@@ -1825,7 +1790,7 @@ Main Header
     display: none;
 }
 
-/***
+/*** 
 
 ====================================================================
 Header Style Two
@@ -1895,7 +1860,7 @@ Header Style Two
     margin-left: 20px;
 }
 
-/***
+/*** 
 
 ====================================================================
 Header Style Three
@@ -1932,7 +1897,7 @@ Header Style Three
     min-width: 310px;
 }
 
-/***
+/*** 
 
 ====================================================================
 Sticky Header
@@ -2008,7 +1973,7 @@ Sticky Header
     display: none;
 }
 
-/***
+/*** 
 
 ====================================================================
       Mobile Menu
@@ -2320,7 +2285,7 @@ Sticky Header
     color: var(--theme-color1);
 }
 
-/***
+/*** 
 
 ====================================================================
 Section Title
@@ -2384,7 +2349,7 @@ Section Title
     color: #b3c2c1;
 }
 
-/***
+/*** 
 
 ====================================================================
 Page Title
@@ -2579,7 +2544,6 @@ Page Title
         -webkit-box-shadow: 0 0 0 70px rgba(255, 255, 255, 0);
         box-shadow: 0 0 0 70px rgba(255, 255, 255, 0);
     }
-
     100% {
         -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
         box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
@@ -2591,7 +2555,6 @@ Page Title
         -webkit-box-shadow: 0 0 0 70px rgba(255, 255, 255, 0);
         box-shadow: 0 0 0 70px rgba(255, 255, 255, 0);
     }
-
     100% {
         -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
         box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
@@ -2609,7 +2572,7 @@ Page Title
     background-size: cover;
 }
 
-/***
+/*** 
 
 ====================================================================
   Main Slider
@@ -2657,7 +2620,7 @@ Page Title
     display: none;
 }
 
-/***
+/*** 
 
 ====================================================================
     Banner Section
@@ -2946,7 +2909,7 @@ Page Title
     border-radius: 50%;
 }
 
-/***
+/*** 
 
 ====================================================================
   Banners Section
@@ -3244,7 +3207,7 @@ Page Title
     animation-delay: 15s;
 }
 
-/***
+/*** 
 
 ====================================================================
 	Features Section
@@ -3370,7 +3333,7 @@ Page Title
     color: #ffffff;
 }
 
-/***
+/*** 
 
 ====================================================================
     Services Section
@@ -3393,9 +3356,9 @@ Page Title
     border-radius: 10px;
 }
 
-/* .services-section.pull-up .outer-box {
+.services-section.pull-up .outer-box {
     margin-top: -60px;
-} */
+}
 
 .service-block {
     position: relative;
@@ -4123,7 +4086,7 @@ Page Title
     display: block;
 }
 
-/***
+/*** 
 
 ====================================================================
 		Video Section
@@ -4217,7 +4180,7 @@ Page Title
     font-size: 24px;
 }
 
-/***
+/*** 
 
 ====================================================================
 		FAQ's Sectiom
@@ -4375,7 +4338,7 @@ Page Title
     width: 100%;
 }
 
-/***
+/*** 
 
 ====================================================================
     Testimonial Section
@@ -4534,7 +4497,7 @@ Page Title
     transition: all 300ms ease;
 }
 
-/***
+/*** 
 
 ====================================================================
 	Testimonial Section Two
@@ -4727,7 +4690,7 @@ Page Title
     opacity: 0 !important;
 }
 
-/***
+/*** 
 
 ====================================================================
 Contact Section
@@ -5133,7 +5096,7 @@ Contact Section
     transform: scaleX(-1);
 }
 
-/***
+/*** 
 
 ====================================================================
     Fun Fact Section
@@ -5214,7 +5177,7 @@ Contact Section
     border: 1px solid rgba(255, 255, 255, 0.4);
 }
 
-/***
+/*** 
 
 ====================================================================
     News Section
@@ -5419,7 +5382,7 @@ Contact Section
     font-weight: 600;
 }
 
-/***
+/*** 
 
 ====================================================================
     Clients Section
@@ -5429,8 +5392,7 @@ Contact Section
 
 .clients-section {
     position: relative;
-    /* background-color: #f6f5f0; */
-        background-color: #93bb57;
+    background-color: #f6f5f0;
     z-index: 1;
 }
 
@@ -5487,20 +5449,16 @@ Contact Section
 .clients-carousel .slide-item img {
     display: inline-block;
     max-width: 100%;
-    width: 200px;
-    height: 120px;
+    width: auto;
+    height: auto;
     opacity: 0.2;
-    /* -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease; */
-    opacity: 1 !important;          /* no faded appearance */
-    transition: none !important; 
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .clients-carousel .slide-item:hover img {
-     transform: scale(1.05);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    opacity: 1 !important;
+    background-color: #ffffff;
+    opacity: 1;
 }
 
 .clients-carousel .owl-nav,
@@ -5524,12 +5482,6 @@ Contact Section
 
 .clients-section.style-two .sponsors-outer {
     border-top: 1px solid #e8e6dd;
-}
-
-.clients-carousel .slide-item p {
-    color: #111 !important;   /* darker text */
-    font-weight: 600;          /* optional: make it bolder */
-    margin-top: 8px;           /* nicer spacing */
 }
 
 /***
@@ -6080,7 +6032,6 @@ Contact Section
         -ms-flex-pack: start;
         justify-content: start;
     }
-
     .product-details .product-info .product-details__social .social-icon-one {
         margin-left: 0;
     }
@@ -6401,12 +6352,10 @@ Contact Section
     .product-details__img {
         margin-bottom: 50px;
     }
-
     .product-details__title span {
         margin-left: 0;
         display: block;
     }
-
     .product-details__buttons {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
@@ -6416,12 +6365,10 @@ Contact Section
         -ms-flex-align: baseline;
         align-items: baseline;
     }
-
     .product-details__buttons-2 {
         margin-left: 0;
         margin-top: 10px;
     }
-
     .product-details__social-link {
         margin-left: 0;
         margin-top: 20px;
@@ -6687,7 +6634,7 @@ Contact Section
     width: 100%;
     background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), to(rgb(255, 255, 255)));
     background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#00ffffff", GradientType=1);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#ffffff", endColorstr="#00ffffff", GradientType=1);
     content: "";
     opacity: 0.3;
     left: -100%;
@@ -7519,7 +7466,7 @@ table.tbl-shopping-cart>tfoot>tr>th {
     background-color: var(--theme-color2);
 }
 
-/***
+/*** 
 
 ====================================================================
 Page Title
@@ -7532,7 +7479,6 @@ Page Title
         -webkit-box-shadow: 0 0 0 70px rgba(255, 255, 255, 0);
         box-shadow: 0 0 0 70px rgba(255, 255, 255, 0);
     }
-
     100% {
         -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
         box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
@@ -7544,7 +7490,6 @@ Page Title
         -webkit-box-shadow: 0 0 0 70px rgba(255, 255, 255, 0);
         box-shadow: 0 0 0 70px rgba(255, 255, 255, 0);
     }
-
     100% {
         -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
         box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
@@ -8934,7 +8879,7 @@ Page Title
     background-color: var(--theme-color1);
 }
 
-/***
+/*** 
 
 ====================================================================
 Sidebar
@@ -9351,7 +9296,7 @@ Sidebar
     float: right;
 }
 
-/***
+/*** 
 
 ====================================================================
     Comments
@@ -10114,32 +10059,4 @@ Sidebar
 
 .footer-bottom .copyright-text a:hover {
     color: #ffffff;
-}
-
-/* Required base styles for the infinite scroll carousels */
-.clients-carousel {
-  display: flex;           /* lay list items in a row */
-  gap: 30px;               /* match your owl margin if needed */
-  align-items: center;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  will-change: transform;
-}
-
-/* Ensure each slide item doesn't wrap and preserves its measured size */
-.clients-carousel .slide-item {
-  flex: 0 0 auto;
-}
-
-/* Parent container should hide overflow so we only see the viewport area */
-.sponsors-outer {
-  overflow: hidden;
-  position: relative;
-   padding: 60px 0;
-}
-
-.clients-section .auto-container + .auto-container .sponsors-outer {
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
