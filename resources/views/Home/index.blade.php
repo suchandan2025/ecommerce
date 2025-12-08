@@ -816,32 +816,10 @@
         <!--End News Section -->
 
         <!-- Clients Section   -->
-        <section class="clients-section">
-            <div class="auto-container">
-                <div class="anim-icons">
-                    <span class="icon-leaf leaf-1"></span>
-                    <span class="icon-leaf leaf-2"></span>
-                    <span class="icon-leaf leaf-3"></span>
-                </div>
-
-                <!-- Sponsors Outer -->
-                <div class="sponsors-outer">
-                    <!--clients carousel-->
-                    <ul class="clients-carousel owl-carousel owl-theme">
-                        <li class="slide-item"> <a href="#"><img src="{{ asset('assets/images/resource/client.png') }}" alt=""></a> </li>
-                        <li class="slide-item"> <a href="#"><img src="{{ asset('assets/images/resource/client.png') }}" alt=""></a> </li>
-                        <li class="slide-item"> <a href="#"><img src="{{ asset('assets/images/resource/client.png') }}" alt=""></a> </li>
-                        <li class="slide-item"> <a href="#"><img src="{{ asset('assets/images/resource/client.png') }}" alt=""></a> </li>
-                        <li class="slide-item"> <a href="#"><img src="{{ asset('assets/images/resource/client.png') }}" alt=""></a> </li>
-                        <li class="slide-item"> <a href="#"><img src="{{ asset('assets/images/resource/client.png') }}" alt=""></a> </li>
-                    </ul>
-                </div>
-            </div>
-        </section>
         <!--End Clients Section -->
 
         <!-- Clients / Portfolio Section -->
-{{-- <section class="clients-section">
+<section class="clients-section">
     <div class="auto-container"  style="margin-top:30px;">
         <h2 class="section-title" style="text-align:center; margin-bottom:15px;">Portfolio</h2>
     </div>
@@ -908,10 +886,6 @@
             </ul>
         </div>
     </div>
-</section> --}}
-
-
-
-
-
+</section>
+<!-- End Clients / Portfolio Section -->
 @endsection
