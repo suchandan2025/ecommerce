@@ -5431,7 +5431,11 @@ Contact Section
 .clients-section {
     position: relative;
     /* background-color: #f6f5f0; */
-        background-color: #93bb57;
+    /* background-color: #93bb57; */
+    background-image: url(../images/portfolio-bg.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     z-index: 1;
 }
 
@@ -5498,11 +5502,12 @@ Contact Section
 }
 
 .clients-carousel .slide-item:hover img {
-     transform: scale(1.05);
+    transform: scale(1.05);
     box-shadow: 0 8px 20px rgba(0,0,0,0.12);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    opacity: 1 !important;
+    border-radius: 2rem !important;
+    opacity: 1;  /* no need for !important */
 }
+
 
 .clients-carousel .owl-nav,
 .clients-carousel .owl-dots {

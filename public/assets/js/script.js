@@ -324,9 +324,9 @@ var THEMEMASCOT = {};
 
     // Run after all images load
     window.addEventListener("load", function () {
-        setupInfiniteCarousel(".carousel-1", 3, 100); // Right → Left
-        setupInfiniteCarousel(".carousel-2", 3, 100); // Left → Right
-        setupInfiniteCarousel(".carousel-3", 3, 100); // Right → Left
+        setupInfiniteCarousel(".carousel-1", 3, 50); // Right → Left
+        setupInfiniteCarousel(".carousel-2", 3, 50); // Left → Right
+        setupInfiniteCarousel(".carousel-3", 3, 50); // Right → Left
     });
 
 });
