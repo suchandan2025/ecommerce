@@ -114,7 +114,7 @@
                                     <li ><a href="{{ route('home') }}">Home</a></li>
                                     <li class="dropdown"><a href="#">About</a>
                                         <ul>
-                                            <li><a href="page-about.html">About</a></li>
+                                            <li><a href="{{ route('about') }}">About Us</a></li>
                                             <li class="dropdown"><a href="#">Services</a>
                                                 <ul>
                                                     <li><a href="page-services.html">Services List</a></li>
@@ -132,7 +132,7 @@
                                             <li><a href="page-404.html">Page 404</a></li>
                                         </ul>
                                     </li>
-                                    <li class="dropdown"><a href="#">Portfolio</a>
+                                    <li class="dropdown"><a href="{{ route('portfolio') }}">Portfolio</a>
                                         <ul>
                                             <li><a href="shop-products.html">Products</a></li>
                                             <li><a href="shop-products-sidebar.html">Products with Sidebar</a></li>
