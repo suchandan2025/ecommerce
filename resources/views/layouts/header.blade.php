@@ -84,8 +84,12 @@
                             <span class="divider"></span>
 
                             <div class="outer-box">
-                                <button class="ui-btn ui-btn search-btn">
+                                {{-- <button class="ui-btn ui-btn search-btn">
                                     <span class="icon lnr lnr-icon-search"></span>
+                                </button> --}}
+
+                                <button class="ui-btn ui-btn search-btn" aria-label="Search">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
                                 </button>
 
                                 <div class="ui-btn cart-btn">
@@ -94,7 +98,7 @@
                                 </div>
 
                                 <!--Mobile Navigation Toggler-->
-                                <div class="mobile-nav-toggler"><span class="icon lnr-icon-bars"></span></div>
+                                <div class="mobile-nav-toggler"><span class="icon fa-solid fa-bars"></span></div>
                             </div>
                         </div>
                     </div>

@@ -1639,7 +1639,7 @@ img.tp-slider-alternative-image {
     background: #fff
 }
 
-.tparrows {
+/* .tparrows {
     cursor: pointer;
     background: #000;
     background: rgba(0, 0, 0, .5);
@@ -1648,7 +1648,7 @@ img.tp-slider-alternative-image {
     position: absolute;
     display: block;
     z-index: 1000
-}
+} */
 
 .tparrows:hover {
     background: #000
