@@ -9,7 +9,7 @@
                         <!--Footer Column-->
                         <div class="footer-column col-lg-3 col-md-6 col-sm-12">
                             <div class="footer-widget about-widget">
-                                <div class="logo"><a href="index.html"><img src="{{ asset('assets/images/logo-3.png') }}" alt="" /></a></div>
+                                <div class="logo"><a href="index.html"><img src="{{asset('assets/images/logo-3.png')}}" alt="" /></a></div>
                                 <div class="text">Lorem ipsum dolor sit amet consect etur adi pisicing elit sed.</div>
                                 <ul class="contact-list">
                                     <li>

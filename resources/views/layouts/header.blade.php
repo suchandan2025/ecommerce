@@ -111,9 +111,9 @@
 
                             <nav class="nav main-menu">
                                 <ul class="navigation">
-                                    <li ><a href="{{ route('home') }}">Home</a></li>
-                                    <li class="dropdown"><a href="#">About</a>
-                                        <ul>
+                                    <li><a href="{{ route('home') }}">Home</a></li>
+                                    <li><a href="#">About</a>
+                                        {{-- <ul>
                                             <li><a href="page-about.html">About</a></li>
                                             <li class="dropdown"><a href="#">Services</a>
                                                 <ul>
@@ -130,35 +130,13 @@
                                             <li><a href="page-testimonial.html">Testimonial</a></li>
                                             <li><a href="page-faq.html">FAQ</a></li>
                                             <li><a href="page-404.html">Page 404</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown"><a href="#">Portfolio</a>
-                                        <ul>
-                                            <li><a href="shop-products.html">Products</a></li>
-                                            <li><a href="shop-products-sidebar.html">Products with Sidebar</a></li>
-                                            <li><a href="shop-product-details.html">Product Details</a></li>
-                                            <li><a href="shop-cart.html">Cart</a></li>
-                                            <li><a href="shop-checkout.html">Checkout</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown"><a href="#">Investors </a>
-                                        {{-- <ul>
-                                            <li><a href="shop-products.html">Products</a></li>
-                                            <li><a href="shop-products-sidebar.html">Products with Sidebar</a></li>
-                                            <li><a href="shop-product-details.html">Product Details</a></li>
-                                            <li><a href="shop-cart.html">Cart</a></li>
-                                            <li><a href="shop-checkout.html">Checkout</a></li>
                                         </ul> --}}
                                     </li>
-                                    <li class="dropdown"><a href="#">careers  </a>
 
-                                    </li>
-                                    <li class="dropdown"><a href="#">News</a>
-                                        <ul>
-                                            <li><a href="news-grid.html">News Grid</a></li>
-                                            <li><a href="news-details.html">News Details</a></li>
-                                        </ul>
-                                    </li>
+                                    <li><a href="#">Portfolio</a></li>
+                                    <li><a href="#">Investors </a></li>
+                                    <li><a href="#">careers  </a></li>
+                                    <li><a href="#">Services</a></li>
                                     <li><a href="page-contact.html">Contact</a></li>
                                 </ul>
                             </nav>

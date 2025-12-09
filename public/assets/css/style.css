@@ -5494,7 +5494,7 @@ Contact Section
     /* -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease; */
     opacity: 1 !important;          /* no faded appearance */
-    transition: none !important; 
+    transition: none !important;
 }
 
 .clients-carousel .slide-item:hover img {
@@ -9834,10 +9834,48 @@ Sidebar
     position: relative;
 }
 
-.main-footer .logo {
+/* .main-footer .logo {
+     position: relative;
+    margin-top: -62px;
+    margin-bottom: 18px;
+    height: 100px;
+    left: -10px;
+} */
+/* .main-footer .logo {
     position: relative;
     margin-top: -30px;
     margin-bottom: 25px;
+} */
+ .main-footer .logo {
+
+    /* margin-top: -30px; */
+    /* margin-bottom: 25px; */
+    position: relative;
+    margin-top: -4vw;
+    margin-bottom: 18px;
+    height: clamp(60px, 8vw, 100px);
+    left: 0;
+}
+/* Tablet */
+@media (max-width: 991px) {
+    .main-footer .logo {
+        margin-top: -15px;
+        max-width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+}
+
+/* Mobile */
+@media (max-width: 575px) {
+    .main-footer .logo {
+        margin-top: 0;
+        max-width: 120px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
 }
 
 .main-footer .text {
@@ -10093,7 +10131,7 @@ Sidebar
 .footer-bottom .inner-container {
     position: relative;
     /* padding: 35px 0; */
-    padding: 20px 0 10px 0; 
+    padding: 20px 0 10px 0;
     text-align: center;
 }
 
