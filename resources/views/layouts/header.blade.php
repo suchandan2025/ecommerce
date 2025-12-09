@@ -112,7 +112,7 @@
                             <nav class="nav main-menu">
                                 <ul class="navigation">
                                     <li><a href="{{ route('home') }}">Home</a></li>
-                                    <li><a href="#">About</a>
+                                    <li><a href="{{ route('about') }}">About</a>
                                         {{-- <ul>
                                             <li><a href="page-about.html">About</a></li>
                                             <li class="dropdown"><a href="#">Services</a>
@@ -133,7 +133,7 @@
                                         </ul> --}}
                                     </li>
 
-                                    <li><a href="#">Portfolio</a></li>
+                                    <li><a href="{{ route('portfolio') }}">Portfolio</a></li>
                                     <li><a href="#">Investors </a></li>
                                     <li><a href="#">careers  </a></li>
                                     <li><a href="#">Services</a></li>
