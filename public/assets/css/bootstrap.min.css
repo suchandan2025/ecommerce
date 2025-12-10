@@ -8013,7 +8013,7 @@ fieldset:disabled .btn {
 }
 
 .rounded {
-    border-radius: 1rem !important
+    border-radius: 0.25rem !important
 }
 
 .rounded-0 {

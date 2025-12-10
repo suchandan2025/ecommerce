@@ -834,13 +834,13 @@
 
         <div class="sponsors-outer">
             <ul class="clients-carousel carousel-1 owl-carousel owl-theme">
-                <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo1.png') }}" class="rounded" alt=""></a></li>
-                <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo2.png') }}" class="rounded" alt=""></a></li>
-               <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo3.png') }}" class="rounded" alt=""></a></li>
-               <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo4.png') }}" class="rounded" alt=""></a></li>
-                <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo5.png') }}" class="rounded" alt=""></a></li>
-                <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo6.png') }}" class="rounded" alt=""></a></li>
-                <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo7.png') }}" class="rounded" alt=""></a></li>
+                <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo1.png') }}" alt=""></a></li>
+                <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo2.png') }}" alt=""></a></li>
+               <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo3.png') }}" alt=""></a></li>
+               <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo4.png') }}" alt=""></a></li>
+                <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo5.png') }}" alt=""></a></li>
+                <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo6.png') }}" alt=""></a></li>
+                <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo7.png') }}" alt=""></a></li>
 
             </ul>
         </div>
@@ -856,13 +856,13 @@
 
         <div class="sponsors-outer">
             <ul class="clients-carousel carousel-2 owl-carousel owl-theme">
-               <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo8.png') }}" class="rounded" alt=""></a></li>
-                <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo9.png') }}" class="rounded" alt=""></a></li>
-               <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo10.png') }}" class="rounded" alt=""></a></li>
-               <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo11.png') }}" class="rounded" alt=""></a></li>
-                <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo12.png') }}" class="rounded" alt=""></a></li>
-                <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo13.png') }}" class="rounded" alt=""></a></li>
-                <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo14.png') }}" class="rounded" alt=""></a></li>
+               <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo8.png') }}"  alt=""></a></li>
+                <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo9.png') }}"  alt=""></a></li>
+               <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo10.png') }}"  alt=""></a></li>
+               <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo11.png') }}"  alt=""></a></li>
+                <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo12.png') }}"  alt=""></a></li>
+                <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo13.png') }}"  alt=""></a></li>
+                <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo14.png') }}"  alt=""></a></li>
         </div>
     </div>
 
@@ -876,13 +876,13 @@
 
         <div class="sponsors-outer">
             <ul class="clients-carousel carousel-3 owl-carousel owl-theme">
-                 <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo15.png') }}" class="rounded" alt=""></a></li>
-                <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo16.png') }}" class="rounded" alt=""></a></li>
-               <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo17.png') }}" class="rounded" alt=""></a></li>
-               <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo18.png') }}" class="rounded" alt=""></a></li>
-                <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo19.png') }}" class="rounded" alt=""></a></li>
-                <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo20.png') }}" class="rounded" alt=""></a></li>
-                <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo1.png') }}" class="rounded" alt=""></a></li>
+                 <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo15.png') }}" alt=""></a></li>
+                <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo16.png') }}" alt=""></a></li>
+               <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo17.png') }}" alt=""></a></li>
+               <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo18.png') }}" alt=""></a></li>
+                <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo19.png') }}" alt=""></a></li>
+                <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo20.png') }}" alt=""></a></li>
+                <li class="slide-item"><a href="#"><img src="{{ asset('assets/images/can-logo/logo1.png') }}" alt=""></a></li>
             </ul>
         </div>
     </div>
