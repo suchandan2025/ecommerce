@@ -140,7 +140,7 @@
                                     <li><a href="{{ route('portfolio') }}">Portfolio</a></li>
                                     <li><a href="#">Investors </a></li>
                                     <li><a href="#">careers  </a></li>
-                                    <li><a href="#">Services</a></li>
+                                    <li><a href="{{ route('services') }}">Services</a></li>
                                     <li><a href="page-contact.html">Contact</a></li>
                                 </ul>
                             </nav>

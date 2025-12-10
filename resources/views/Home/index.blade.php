@@ -233,10 +233,10 @@
                                 <figure class="image"><img src="{{ asset('assets/images/resource/service-1.jpg') }}" alt=""></figure>
                                 <div class="content">
                                     <h4>Dispensary</h4>
-                                    <div class="icon flaticon-cannabis-Marijuana2"></div>
+                                    <div class="icon lnr lnr-store"></div>
                                 </div>
                                 <div class="overlay-content">
-                                    <div class="icon flaticon-cannabis-Marijuana2"></div>
+                                    <div class="icon lnr lnr-store"></div>
                                     <h4><a href="page-service-details.html">Dispensary</a></h4>
                                     <div class="text">There are many lipsum of available but the have in that not some.</div>
                                 </div>
@@ -249,10 +249,10 @@
                                 <figure class="image"><img src="{{ asset('assets/images/resource/service-2.jpg') }}" alt=""></figure>
                                 <div class="content">
                                     <h4>Flowers</h4>
-                                    <div class="icon flaticon-cannabis-Marijuana"></div>
+                                    <div class="icon lnr lnr-leaf"></div>
                                 </div>
                                 <div class="overlay-content">
-                                    <div class="icon flaticon-cannabis-Marijuana"></div>
+                                    <div class="icon lnr lnr-leaf"></div>
                                     <h4><a href="page-service-details.html">Flowers</a></h4>
                                     <div class="text">There are many lipsum of available but the have in that not some.</div>
                                 </div>
@@ -265,10 +265,10 @@
                                 <figure class="image"><img src="{{ asset('assets/images/resource/service-3.jpg') }}" alt=""></figure>
                                 <div class="content">
                                     <h4>CBD Oil</h4>
-                                    <div class="icon flaticon-cannabis-tincture"></div>
+                                    <div class="icon lnr lnr-drop"></div>
                                 </div>
                                 <div class="overlay-content">
-                                    <div class="icon flaticon-cannabis-tincture"></div>
+                                   <div class="icon lnr lnr-drop"></div>
                                     <h4><a href="page-service-details.html">CBD Oil</a></h4>
                                     <div class="text">There are many lipsum of available but the have in that not some.</div>
                                 </div>
@@ -281,10 +281,10 @@
                                 <figure class="image"><img src="{{ asset('assets/images/resource/service-4.jpg') }}" alt=""></figure>
                                 <div class="content">
                                     <h4>Edibles</h4>
-                                    <div class="icon flaticon-cannabis-medicine1"></div>
+                                    <div class="icon lnr lnr-coffee-cup"></div>
                                 </div>
                                 <div class="overlay-content">
-                                    <div class="icon flaticon-cannabis-medicine1"></div>
+                                    <div class="icon lnr lnr-coffee-cup"></div>
                                     <h4><a href="page-service-details.html">Edibles</a></h4>
                                     <div class="text">There are many lipsum of available but the have in that not some.</div>
                                 </div>
@@ -702,7 +702,7 @@
                             <div class="row g-0">
                                 <div class="about-block col-lg-6 col-md-6 col-sm-12">
                                     <div class="inner-box">
-                                        <span class="icon flaticon-cannabis-Marijuana1"></span>
+                                        <span class="icon lnr lnr-leaf"></span>
                                         <span class="title">Our Benefits</span>
                                         <h5>Marijuana Removes Headache</h5>
                                     </div>
@@ -710,7 +710,7 @@
 
                                 <div class="about-block col-lg-6 col-md-6 col-sm-12">
                                     <div class="inner-box">
-                                        <span class="icon flaticon-cannabis-heart-rate"></span>
+                                        <span class="icon lnr lnr-heart-pulse"></span>
                                         <span class="title">Our Benefits</span>
                                         <h5>Cannabis Relieves Pain</h5>
                                     </div>

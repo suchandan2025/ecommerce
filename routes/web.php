@@ -14,3 +14,8 @@ Route::get('/portfolio', function () {
 Route::get('/about', function () {
     return view('About.about');
 })->name('about');
+
+
+Route::get('/services', function () {
+    return view('Services.services');
+})->name('services');
